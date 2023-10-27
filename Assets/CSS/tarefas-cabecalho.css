@@ -1,0 +1,45 @@
+.tarefas-cabeçalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    padding: 2rem 1rem;
+    row-gap: 1.5rem;
+    width: 100%;
+}
+
+.tarefas-form{
+    border: none;
+    display: flex;
+    column-gap: 0px;
+    width: 100%;
+    background-color: pink;
+}
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+.tarefas-titulo{
+    width: 90%;
+    height: 35px;
+    padding: 10px;
+}
+
+.tarefas-btn{
+    width: 10%;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.tarefas-btn:hover{
+    background-color: rgb(50, 62, 85);
+    color: #fff;
+}
+
+.tarefas-btn ion-icon{
+    font-size: 1.2rem;
+    
+}

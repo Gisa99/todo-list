@@ -1,0 +1,27 @@
+/* font-family: 'Bowlby One', sans-serif;
+font-family: 'Days One', sans-serif;*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(12, 19, 32);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../Imagens/galaxia.png);   
+}
+
+.hide{
+    display: none;
+}
+
+.done{
+    color: #ffffff;
+    background-color: #1f1c1c;
+    text-decoration: line-through;
+}

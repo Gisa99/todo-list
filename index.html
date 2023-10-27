@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Days+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="Assets/CSS/base.css">
+    <link rel="stylesheet" href="Assets/CSS/tarefas-container.css">
+    <link rel="stylesheet" href="Assets/CSS/tarefas-cabecalho.css">
+    <link rel="stylesheet" href="Assets/CSS/main.css">
+    <link rel="stylesheet" href="Assets/CSS/text.css">
+    <link rel="stylesheet" href="Assets/CSS/lista-tarefas-container.css">
+    <link rel="stylesheet" href="Assets/CSS/lista-tarefas.css">
+    <title>To Do</title>
+</head>
+<body>
+
+ <section class="main-container">
+
+   <div class="tarefas-container">
+     <div class="tarefas-cabeçalho">
+        <h2 class="title">Anote aqui sua tarefa</h2>
+        <form class="tarefas-form">
+            <input type="text" class="tarefas-titulo" placeholder="O que você vai fazer?">
+            <button class="tarefas-btn" type="submit">
+                <ion-icon name="add-outline"></ion-icon>
+            </button>
+        </form>
+    </div>
+   </div>
+   
+    <div class="lista-tarefas-container">
+        <h2 class="title-lista">Minhas Tarefas:</h2>
+        <div class="sem-tarefas" id="sem tarefas">
+            <img class="droid-tarefas" src="Assets/Imagens/robo.png" alt="imagem droid">
+            <p class="paragrafo-lista">você não possui tarefas no momento</p>
+        </div>
+        <ul class="lista-tarefas">
+            <li class="caixa-tarefas template hide">
+                <span class="tarefas-titulo">Soy una tarefa tira</span>
+                <ion-icon class="feito-btn" name="checkmark-outline"></ion-icon>
+                <ion-icon class="remove-btn" name="close-outline"></ion-icon>
+            </li>
+        </ul>
+    </div>
+
+
+
+ </section>
+    
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+</body>
+</html>

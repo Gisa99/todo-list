@@ -1,0 +1,59 @@
+.lista-tarefas{
+    color: #1f1c1c;
+    background-color: rgb(255, 255, 255);
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+span{
+    align-items: center;
+    padding: 2rem;
+    font-family: 'Days One', sans-serif;
+   
+}
+
+.sem-tarefas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.caixa-tarefas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    border-bottom: 2px solid rgb(12, 19, 32);
+}
+
+.feito-btn,
+.remove-btn{
+    width: 30px;
+    height: 100%;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.feito-btn:hover{
+   background-color: rgb(87, 240, 87);
+   color: #fff;
+}
+
+.remove-btn:hover{
+    background-color: rgb(250, 108, 108);
+    color: #fff;
+}
+
+.hide{
+    display: none;
+}
+
+.droid-tarefas{
+    height: 80px;
+}
+

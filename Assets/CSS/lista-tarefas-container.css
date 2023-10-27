@@ -1,0 +1,22 @@
+.lista-tarefas-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 2rem;
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+}
+.title-lista,
+.paragrafo-lista{
+    font-family: 'Days One', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.paragrafo-lista{
+    font-weight: 100;   
+}
+
+
